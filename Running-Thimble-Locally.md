@@ -81,7 +81,7 @@ Instead of publishing to Amazon AWS, we'll be publishing to a local folder. Perf
   * Make sure that ``PUBLIC_PROJECT_ENDPOINT="localhost:8001/test"``` is set as shown here
   * Restart publish server
 
-**Sign In or Create an Account**
+### Sign In or Create an Account
 To publish locally, you'll need an account. You can sign in or create it at...
 * Visit http://localhost:3000/account
 
