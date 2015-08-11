@@ -61,9 +61,10 @@ These steps assume you've followed the PostgreSQL steps above, including creatin
 
 
 ## Getting Ready to Publish
-To publish locally, id.webmaker.org needs to learn about publish.webmaker.org
+To publish locally, you'll need to do the following...
 
-**Teach the ID server about the Publish server**
+**1. Teach the ID server about the Publish server**
+
 * Run ``createdb webmaker_oauth_test`` to create a test database
 * In the **id.webmaker.org** folder
   * Run ``node scripts/create-tables.js``
@@ -71,17 +72,18 @@ To publish locally, id.webmaker.org needs to learn about publish.webmaker.org
   * Run ``node scripts/test-data.js``
     * You'll see a ``INSERT 0 1`` message if successful
 
-**Set up the local data folder**
+**2. Set up the local data folder**
+
 Instead of publishing to Amazon AWS, we'll be publishing to a local folder. Perform the following steps to set this up.
 * Run ``npm install -g http-server && mkdir /tmp/mox && cd /tmp/mox && http-server -p 8001``
 * Run ``cd /tmp/mox && http-server -p 8001`` to start the server
-
 * In your **publish.webmaker.org** folder
   * Open the ``.env`` file
   * Make sure that ``PUBLIC_PROJECT_ENDPOINT="localhost:8001/test"``` is set as shown here
   * Restart publish server
 
-### Sign In or Create an Account
+**3. Sign In**
+
 To publish locally, you'll need an account. You can sign in or create it at...
 * Visit http://localhost:3000/account
 
