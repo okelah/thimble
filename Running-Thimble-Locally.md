@@ -78,7 +78,7 @@ To publish locally, you'll need to do the following...
 Instead of publishing to Amazon AWS, we'll be publishing to a local folder. Perform the following steps to set this up.
 * Run ``npm install -g http-server && mkdir /tmp/mox && cd /tmp/mox && http-server -p 8001``
 * Run ``cd /tmp/mox && http-server -p 8001`` to start the server
-* In your **publish.webmaker.org** folder
+* In your publish.webmaker.org folder
   * Open the ``.env`` file
   * Make sure that ``PUBLIC_PROJECT_ENDPOINT="localhost:8001/test"``` is set as shown here
   * Restart publish server
