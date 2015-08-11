@@ -17,6 +17,7 @@ Thimble is a collection of various services, that all need to be run simulteanou
 * Run ``npm install`` to install dependencies
 * Run ``cp env.dist .env`` to create an environment file
 * Run ``node app`` to start the server
+* Once everything is ready and running, Thimble will be available at [http://localhost:3500/](http://localhost:3500/)
 
 **Brackets**
 * Fork and clone https://github.com/humphd/brackets
