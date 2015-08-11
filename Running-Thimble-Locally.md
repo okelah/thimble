@@ -67,7 +67,7 @@ To publish locally, you'll need to do the following...
 **1. Teach the ID server about the Publish server**
 
 * Run ``createdb webmaker_oauth_test`` to create a test database
-* In the **id.webmaker.org** folder
+* In your id.webmaker.org folder
   * Run ``node scripts/create-tables.js``
   * Edit ``scripts/test-data.sql`` and replace it's contents with http://pastebin.com/DUXMjjwF
   * Run ``node scripts/test-data.js``
