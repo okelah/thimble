@@ -32,7 +32,7 @@ Thimble is a collection of various services, that all need to be run simulteanou
 * Clone https://github.com/mozilla/id.webmaker.org
 * Run ``cp sample.env .env`` to create an environment file
 * Run ``npm install`` to install dependencies
-* Run ``npm run`` to start the server
+* Run ``npm start`` to start the server
 
 **login.webmaker.org**
 * Clone https://github.com/mozilla/login.webmaker.org
