@@ -20,7 +20,7 @@ Thimble is a collection of various services, that all need to be run simulteanou
 **Brackets**
 * Fork and clone https://github.com/humphd/brackets
 * Make sure you're on the ``bramble`` branch
-* git submodule update --init
+* Run ``git submodule update --init`` to install submodules
 * Run ``grunt build-browser``
 * Run the server, there are two ways...
   * Run ``python -m SimpleHTTPServer 8000`` to start the server on localhost:8000
