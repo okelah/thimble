@@ -22,7 +22,10 @@ Thimble is a collection of various services, that all need to be run simulteanou
 * Make sure you're on the ``bramble`` branch
 * git submodule update --init
 * Run ``grunt build-browser``
-* Run ``python -m SimpleHTTPServer 8000`` to start the server on localhost:8000
+* Run the server, there are two ways...
+  * Run ``python -m SimpleHTTPServer 8000`` to start the server on localhost:8000
+  * Run ``npm start``
+
 
 **id.webmaker.org**
 * Clone https://github.com/mozilla/id.webmaker.org
