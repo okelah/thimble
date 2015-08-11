@@ -5,8 +5,9 @@ Thimble is a collection of various services, that all need to be run simulteanou
 * Brackets
 * Webmaker ID server
 * Webmaker Login Server
+* PostgreSQL Database
 * Webmaker Publishing Server
-* Postgres Database
+
 
 ## Installing the Parts
 
@@ -27,7 +28,6 @@ Thimble is a collection of various services, that all need to be run simulteanou
   * Run ``python -m SimpleHTTPServer 8000`` to start the server on localhost:8000
   * Run ``npm start``
 
-
 **id.webmaker.org**
 * Clone https://github.com/mozilla/id.webmaker.org
 * Run ``cp sample.env .env`` to create an environment file
@@ -40,40 +40,49 @@ Thimble is a collection of various services, that all need to be run simulteanou
 * Run ``cp env.sample .env`` to create an environment file
 * Run ``npm start`` the server
 
+**PostgreSQL**
+* Install Postgres with via Homebrew
+  * Get Homebrew - http://brew.sh/
+  * Run ``brew install postgresql`` to install PostgreSQL once Homebrew is installed
+* Run ``initdb -D /usr/local/var/postgres`` to initialize PostreSQL
+  * If this already exists, run ``rm -rf /usr/local/var/postgres`` to remove it
+* Run ``postgres -D /usr/local/var/postgres`` to start the PostgreSQL server
+* Run ``createdb publish`` to create the Publish database
+
 **publish.webmaker.org**
+These steps assume you've followed the PostgreSQL steps above, including creating the publish database.
 * Clone https://github.com/mozilla/publish.webmaker.org
 * Run ``npm install`` to install dependencies
 * Run ``npm run env``
 * Run ``npm install knex -g`` to install knex
-* Run ``npm run knex`` to run knex
+* Run ``npm run knex`` to seed the publish database created earlier
 * Run ``npm start`` to run the server
 
-**PostgreSQL**
-* Install Postgres with via Homebrew
-  * Get Homebrew - http://brew.sh/
-  * Run `` brew install postgresql`` to install PostgreSQL once Homebrew is installed
-* Run ``initdb -D /usr/local/var/postgres`` to initialize PostreSQL
-* Run ``postgres -D /usr/local/var/postgres`` to start the PostgreSQL server
-* Run ``createdb publish`` to create the Publish database
 
 ## Getting Ready to Publish
 To publish locally, id.webmaker.org needs to learn about publish.webmaker.org
 
+**Teach the ID server about the Publish server**
 * Run ``createdb webmaker_oauth_test`` to create a test database
 * In the **id.webmaker.org** folder
   * Run ``node scripts/create-tables.js``
   * Edit ``scripts/test-data.sql`` and replace it's contents with http://pastebin.com/DUXMjjwF
   * Run ``node scripts/test-data.js``
+    * You'll see a ``INSERT 0 1`` message if successful
 
+**Set up the local data folder**
 Instead of publishing to Amazon AWS, we'll be publishing to a local folder. Perform the following steps to set this up.
 * Run ``npm install -g http-server && mkdir /tmp/mox && cd /tmp/mox && http-server -p 8001``
 * Run ``cd /tmp/mox && http-server -p 8001`` to start the server
 
 * In your **publish.webmaker.org** folder
-  * Open the ``publish.env`` file
+  * Open the ``.env`` file
   * Make sure that ``PUBLIC_PROJECT_ENDPOINT="localhost:8001/test"``` is set as shown here
   * Restart publish server
 
+**Sign In or Create an Account**
+To publish locally, you'll need an account. You can sign in or create it at...
+* Visit http://localhost:3000/account
 
  
 
