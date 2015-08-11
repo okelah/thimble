@@ -85,7 +85,7 @@ Instead of publishing to Amazon AWS, we'll be publishing to a local folder. Perf
 **3. Sign In**
 
 To publish locally, you'll need an account. You can sign in or create it at...
-* Visit http://localhost:3000/account
+* Sign in at [http://localhost:3000/account](http://localhost:3000/account)
 
  
 
