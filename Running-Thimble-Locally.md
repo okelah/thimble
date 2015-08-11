@@ -50,6 +50,7 @@ Thimble is a collection of various services, that all need to be run simulteanou
 * Run ``createdb publish`` to create the Publish database
 
 **publish.webmaker.org**
+
 These steps assume you've followed the PostgreSQL steps above, including creating the publish database.
 * Clone https://github.com/mozilla/publish.webmaker.org
 * Run ``npm install`` to install dependencies
