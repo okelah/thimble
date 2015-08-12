@@ -92,7 +92,14 @@ To publish locally, you'll need an account.
   * This lets you authenticate your account without needing email
 * Go back to Thimble and Log In with your new account
 
- 
 
+## Running the parts
+This is the list of commands to get each part up and running.
 
-
+* Thimble ``node app``
+* Brackets ``npm start``
+* PostgreSQL Database ``postgres -D /usr/local/var/postgres``
+* Webmaker ID server ``npm start``
+* Webmaker Login Server ``npm start``
+* Webmaker Publishing Server ``npm start``
+* Local publish folder ``cd /tmp/mox && http-server -p 8001``
