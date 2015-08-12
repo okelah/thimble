@@ -87,7 +87,7 @@ Instead of publishing to Amazon AWS, we'll be publishing to a local folder. Perf
 
 To publish locally, you'll need an account.
 * Go to [http://localhost:3000/account](http://localhost:3000/account)
-* Click Join Webmaker and complete the process, you can use a fake email
+* Click ``Join Webmaker`` and complete the process, you can use a fake email
 * When you've created your account, click ``Set permanent password instead``
   * This lets you authenticate your account without needing email
 * Go back to Thimble and Log In with your new account
