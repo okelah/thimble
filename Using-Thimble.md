@@ -28,7 +28,15 @@ You can create, delete, and rename files and folders by **right-clicking** the f
 
 ## Upload Images (or other individual files)
 
-You can upload one ore more files (you can't upload a folder, but see below for how to work with `.zip` files), and have them get added to your current project's filesystem.  Drag a file or files to the file tree or editor and drop.  NOTE: the preview area is *not* a drag-and-drop target for uploading files.  You can also use the `Upload Files` dialog box.
+You can upload one ore more files (you can't upload a folder, but see below for how to work with `.zip` files), and have them get added to your current project's filesystem.  Drag a file or files to the file tree or editor and drop.  NOTE: the preview area is *not* a drag-and-drop target for uploading files.  You can also use the `Upload Files` dialog box.  Uploaded file size is capped, currently at 3M.
 
 ![Inline Docs Example](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/upload-images.gif)
 
+## Upload Archives
+
+In addition to uploading a file or files, you can also upload a `.zip` archive.  Thimble will automatically
+extract the archive into the current project, replacing any files that already exist with the same name.
+If the archive's files are contained with a folder, the same directory structure will be created.  This is
+a convenient way to seed a new project with existing files and folders.
+
+![Inline Docs Example](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/upload-archives.gif)
