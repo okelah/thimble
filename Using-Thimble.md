@@ -27,6 +27,13 @@ like at different sizes:
 
 ![Preview Modes](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/preview-modes.gif)
 
+## Themes
+
+Brackets supports theming, and Thimble ships with the option to switch between a **Light Theme** and a
+**Dark Theme**.  Your choice will be remembered between sessions.
+
+![Themes](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/theme.gif)
+
 ## Inline Docs
 
 You can get HTML and CSS documentation by using `CTRL+K` or `CMD+K` (OS X) while your cursor is on top of an element or property:
