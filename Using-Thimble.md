@@ -32,9 +32,20 @@ You can create, delete, and rename files and folders by **right-clicking** the f
 
 You can upload one ore more files (you can't upload a folder, but see below for how to work with `.zip` files), and have them get added to your current project's filesystem.  Drag a file or files to the file tree or editor and drop.  NOTE: the preview area is *not* a drag-and-drop target for uploading files.  You can also use the `Upload Files` dialog box.  Uploaded file size is capped, currently at 3M.
 
-*TIP: if you need to use a secure (i.e., `https://`) version of a resource (script, image, stylesheet, font, ...) and can't find one, you can drag it into your project and host it from securely as part of your published project.
+*TIP: if you need to use a secure (i.e., `https://`) version of a resource (script, image, stylesheet, font, ...) and can't find one, you can drag it into your project and host it from securely as part of your published project.*
 
 ![Upload Images](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/upload-images.gif)
+
+## Take a Selfie
+
+If you want a quick and fun way to add a picture to a project, you can use the **Selfie** feature.
+There are two ways to use it:
+* from the **Upload** dialog box
+* from the editor, using code completion when you type `<img src=` in an HTML file or `url(` in a CSS file
+
+*NOTE: not all browsers support accessing the web cam, so this feature will only work if your browser supports it.*
+
+![Selfie](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/selfie.gif)
 
 ## Upload Archives
 
