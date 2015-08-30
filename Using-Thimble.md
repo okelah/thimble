@@ -7,6 +7,26 @@ of Brackets, much of what you can do is the same as for [using the desktop Brack
 
 *NOTE: if you find the following animations too small to ready, you can open all of the images below in full-size by right-clicking and viewing them on their own.*
 
+## Tutorials
+
+Because Thimble is geared toward teaching and learning, it allows you to bundle a `tutorial.html` file
+along with your project.  When a project has a `tutorial.html` file, it will get an extra option to switch
+in the inline preview between a live view of the current document and the tutorial.  Being able to "pin"
+the tutorial is helpful so you can read a complex set of instructions and follow along in the editor.
+
+For tutorial authors, your `tutorial.html` file can contain any valid HTML document, and can use
+both external and internal assets.  You could even have an iframe that shows documentation from some
+other site. 
+
+![Tutorials](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/tutorial.gif)
+
+## Desktop vs. Mobile View
+
+The inline preview can be switched from Desktop to Mobile mode, allowing you to see what your page would look
+like at different sizes:
+
+![Preview Modes](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/preview-modes.gif)
+
 ## Inline Docs
 
 You can get HTML and CSS documentation by using `CTRL+K` or `CMD+K` (OS X) while your cursor is on top of an element or property:
