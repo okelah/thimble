@@ -34,6 +34,15 @@ Brackets supports theming, and Thimble ships with the option to switch between a
 
 ![Themes](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/theme.gif)
 
+## Live DOM Highlighting
+
+As you work in the editor, the preview will show a live representation of what you type. This includes
+highlighting of DOM elements that correspond to the code under your cursor.  This feature works in
+both HTML files, where it highlights the given element, and in CSS files, where elements that use the
+current rule are highlighted:
+
+![Live DOM Highlighting](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/dom-highlight.gif)
+
 ## Inline Docs
 
 You can get HTML and CSS documentation by using `CTRL+K` or `CMD+K` (OS X) while your cursor is on top of an element or property:
