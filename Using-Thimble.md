@@ -93,6 +93,18 @@ a convenient way to seed a new project with existing files and folders.
 
 ![Upload .zip Archives](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/upload-archives.gif)
 
+## Publish and Remix
+
+Project files are automatically saved as they change, but are *not* automatically published (or republished).
+When you're happy with your work, you can click the **Publish** button.  You can update your project's title
+at the top of the editor (click the pen icon to edit), and if you want to add a description, you can do that
+within the **Publish** dialog. Once a project is published, you will be given a link that takes you to the hosted
+version.  At the top you'll see a **Remix** button, which anyone can use to make a new project using yours as
+a starting point.  If you publish a project, then make changes, and want those changes to get published as well,
+click the **Publish** button and choose **Update published version**.  You can also choose to **Unpublish** something you've made:
+
+![Publish and Remix](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/publish-remix.gif)
+
 ## Export a Project
 
 Importing `*.zip` archives is nice because it allows you to bring pre-made content into your current project.  The same is true in reverse: you can export your current project as a `project.zip` file, and use it elsewhere.  To do so, log in and choose the `Export (.zip)` option.
