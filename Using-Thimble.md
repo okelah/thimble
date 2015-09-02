@@ -93,6 +93,10 @@ a convenient way to seed a new project with existing files and folders.
 
 ![Upload .zip Archives](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/upload-archives.gif)
 
+You can also easily import something from Github using their `Download` button, which gives a `.zip` file of the repo's current state:
+
+![Import from Github](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/import-from-github.gif)
+
 ## Publish and Remix
 
 Project files are automatically saved as they change, but are *not* automatically published (or republished).
