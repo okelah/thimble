@@ -15,6 +15,8 @@
  - export project
 
 # v2.1 Full Parity
+[Issues](https://github.com/mozilla/thimble.webmaker.org/milestones/Full%20Parity)
+
 *Value: Remove blockers to shutting down old Thimble*
  - Localization
  - Support latest versions of major browsers - **DONE**
@@ -22,6 +24,8 @@
  - Delighting our users (responding to high value requests)
 
 # v2.2 Teacher’s Pet
+[Issues](https://github.com/mozilla/thimble.webmaker.org/milestones/Teacher's%20Pet)
+
 *Value: Thimble becomes a best-in-class classroom teaching tool. Provides new value proposition for professional educator audience.*
 
  - “Classroom portfolio” tool displays projects from students in a shared learning environment, and provides useful UI for instructors
