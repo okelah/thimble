@@ -29,6 +29,7 @@
 *Value: Thimble becomes a best-in-class classroom teaching tool. Provides new value proposition for professional educator audience.*
 
  - “Classroom portfolio” tool displays projects from students in a shared learning environment, and provides useful UI for instructors
+ - Shared login functionality for classrooms
  - Improved tutorial functionality (based on user feedback after MVP)
  - Improve “My Projects” experience. See https://github.com/mozilla/thimble.webmaker.org/issues/1106
  - Sample assessment rubrics - tools or best practices for instructors to evaluate learning outcomes
