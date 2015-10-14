@@ -55,7 +55,7 @@ You can get HTML and CSS documentation by using `CTRL+K` or `CMD+K` (OS X) while
 You can view and edit other parts of your project (i.e., linked content from other files) by using Inline Editors.  Place your cursor over the keyword you want to apply the editor to, and press `CTRL+E` or `CMD+E` (OS X).  Inline Editors work differently depending on what you select:
 * **HTML** - you'll see all the CSS that applies to the given element, across any number of CSS files
 * **CSS** - you can use a graphical color picker when you place your cursor on a CSS color value
-* **JS** - you'll the definition of whatever method, variable, etc you have selected.  HINT: you can use `CTRL+J` or `CMD+J` (OS X) to jump to its definition instead
+* **JS** - you'll see the definition of whatever method, variable, etc you have selected.  HINT: you can use `CTRL+J` or `CMD+J` (OS X) to jump to its definition instead
 
 ![Inline Editors](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/inline-editors.gif)
 
