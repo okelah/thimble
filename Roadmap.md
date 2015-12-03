@@ -26,13 +26,7 @@
  - Expanded browser support (Thimble now works in all modern browsers, including Internet Explorer, Chromebooks, and Safari.)
  - Markdown to HTML and LESS to CSS conversion
 
-# v2.2 Full Parity
-
-*Value: Remove blockers to shutting down old Thimble*
- - Localization
- - Migrate old projects (https://github.com/mozilla/thimble.webmaker.org/issues/509)
-
-# v2.3 Inspector
+# v2.2 Inspector
 
 *Value: Deliver high-value user-requested feature*
  - Preview Inspector
@@ -40,6 +34,12 @@
 
 Also included: 
  - Improved internal dashboard
+
+# v2.3 Full Parity
+
+*Value: Remove blockers to shutting down old Thimble*
+ - Localization
+ - Migrate old projects (https://github.com/mozilla/thimble.webmaker.org/issues/509)
 
 # v2.4 Share and Discover
 
