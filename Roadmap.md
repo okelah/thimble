@@ -16,7 +16,7 @@
 
 # v2.2 Going Pro (all released as of November 15)
 
-* Focus is on improving the coding experience, for beginners and more experienced coders alike*
+*Focus is on improving the coding experience, for beginners and more experienced coders alike*
  - Colour Palette extraction for images
  - Disable line wrapper
  - Disable JavaScript auto-execute
