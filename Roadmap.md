@@ -14,49 +14,50 @@
  - improved landing page
  - export project
 
-# v2.1 Full Parity
-[Issues](https://github.com/mozilla/thimble.webmaker.org/milestones/Full%20Parity)
+# v2.2 Going Pro (all released as of November 15)
+
+* Focus is on improving the coding experience, for beginners and more experienced coders alike*
+ - Colour Palette extraction for images
+ - Disable line wrapper
+ - Disable JavaScript auto-execute
+ - Moving files between folders
+ - Code Folding
+ - New remixable starter projects
+ - Expanded browser support (Thimble now works in all modern browsers, including Internet Explorer, Chromebooks, and Safari.)
+ - Markdown to HTML and LESS to CSS conversion
+
+# v2.3 Full Parity
 
 *Value: Remove blockers to shutting down old Thimble*
  - Localization
- - Support latest versions of major browsers - **DONE**
  - Migrate old projects (https://github.com/mozilla/thimble.webmaker.org/issues/509)
- - Delighting our users (responding to high value requests)
 
-# v2.2 Teacher’s Pet
-[Issues](https://github.com/mozilla/thimble.webmaker.org/milestones/Teacher's%20Pet)
+# v2.4 
 
-*Value: Thimble becomes a best-in-class classroom teaching tool. Provides new value proposition for professional educator audience.*
+*Value: Deliver high-value user-requested feature*
+ - Preview Inspector
+ - Improved “My Projects” experience.
 
- - “Classroom portfolio” tool displays projects from students in a shared learning environment, and provides useful UI for instructors
- - Shared login functionality for classrooms
- - Improved tutorial functionality (based on user feedback after MVP)
- - Improve “My Projects” experience. See https://github.com/mozilla/thimble.webmaker.org/issues/1106
- - Sample assessment rubrics - tools or best practices for instructors to evaluate learning outcomes
- - Possible badges integration
+Also included: 
+ - Improved internal dashboard
 
-# v2.3: Share and Discover
-*Value: Teach.mozilla.org becomes a platform for sharing and discovering high-quality teaching and learning content. This will coincide with transitioning all of the Mozilla Clubs curriculum to Thimble, improving our processes and standards for curated content, and efforts to increase community participation in content creation.*
+# v2.5 Share and Discover
 
- - Introduce content types: teaching kit, project
+*Value: Thimble becomes a platform for sharing and discovering high-quality teaching and learning content. This will coincide with Curriculum Working Group efforts to standardize best practices for curriculum, the creation of new curriculum templates, and migrating many curricular materials to Thimble.*
+
  - Curated projects are accessible in a Public Gallery
- - Admin tools for curation 
- - Allow users to opt in to receiving notifications about new projects
- - Related user preferences (e.g. whether to display in gallery or not (opt-out))
- - Search and browse gallery
- - Tagging of projects (web lit competencies, read/write/participate, free form, html/css/javascript)
- - Social features: “Likes”, comments
- - Share people’s project analytics with them (https://github.com/mozilla/thimble.webmaker.org/issues/730)
+ - Tagging of projects for search/discovery
+ - Expose people’s project analytics to them 
  - Browsable Remix history from within a Published project 
 
-Related work on Teach.mozilla.org
- - Users can access Teaching Kits from the teach.mozilla.org curriculum database
- - Users can access/add/curate their Thimble projects on their teach.mozilla.org profile
- - Mozilla Clubs and Hives can create Thimble portfolios and have them appear in their Club/Hive page on teach.mozilla.org
+# v2.6 Learning
 
-# v2.4  Graduation!
-*Value: Thimble becomes more useful to both beginner and seasoned coders. This provides us with improved metrics for learning outcomes, and allows us to differentiate our audience into at least two key groups.*
+*Value: more deeply understand how Thimble does and can help learners master coding concepts
+ - Identify and capture learning analytics to share with others for deep analysis
 
+# TO BE CONSIDERED
+ - Offline access 
+ - Improved tutorial functionality (based on user feedback after MVP)
  - Beginner and Advanced Modes
   - collection of pre-set extensions
   - changes to UX (e.g. more in-editor help for Beginners)
@@ -64,10 +65,22 @@ Related work on Teach.mozilla.org
   - github integration for advanced mode
  - Integrate MDN glossary
  - Image search
-  - make adding an image easier
   - make use of Flickr API, etc to search CC images, something that uses https://unsplash.com/ and https://unsplash.it/
  - Improved error experience (innovate on the idea of error messages as learning tools)
-CSS templates (bootstrap-style)
- - Add learning analytics
+ - CSS templates (bootstrap-style)
+
+# RELATED WORK IN OTHER PROJECTS
+ - Shared login functionality for groups/classrooms (id.webmaker.org)
+ - User-curated collaboration spaces - e.g. "Classrooms" (teach.mozilla.org)
+ - Sample assessment rubrics - tools or best practices for instructors to evaluate learning outcomes (curriculum)
+ - Possible badges integration (badges)
+ - Users can access Teaching Kits from a curriculum database (curriculum)
+ - Users can access/add/curate their Thimble projects on their teach.mozilla.org profile (teach.moz.org and profile service)
+
+
+
+
+
+
 
 
