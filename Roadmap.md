@@ -32,7 +32,7 @@
  - Localization
  - Migrate old projects (https://github.com/mozilla/thimble.webmaker.org/issues/509)
 
-# v2.4 
+# v2.4 Inspector
 
 *Value: Deliver high-value user-requested feature*
  - Preview Inspector
@@ -52,7 +52,7 @@ Also included:
 
 # v2.6 Learning
 
-*Value: more deeply understand how Thimble does and can help learners master coding concepts
+*Value: more deeply understand how Thimble does and can help learners master coding concepts*
  - Identify and capture learning analytics to share with others for deep analysis
 
 # TO BE CONSIDERED
