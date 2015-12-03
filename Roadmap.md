@@ -14,7 +14,7 @@
  - improved landing page
  - export project
 
-# v2.2 Going Pro (all released as of November 15)
+# v2.1 Going Pro (all released as of November 15)
 
 *Focus is on improving the coding experience, for beginners and more experienced coders alike*
  - Colour Palette extraction for images
@@ -26,13 +26,13 @@
  - Expanded browser support (Thimble now works in all modern browsers, including Internet Explorer, Chromebooks, and Safari.)
  - Markdown to HTML and LESS to CSS conversion
 
-# v2.3 Full Parity
+# v2.2 Full Parity
 
 *Value: Remove blockers to shutting down old Thimble*
  - Localization
  - Migrate old projects (https://github.com/mozilla/thimble.webmaker.org/issues/509)
 
-# v2.4 Inspector
+# v2.3 Inspector
 
 *Value: Deliver high-value user-requested feature*
  - Preview Inspector
@@ -41,7 +41,7 @@
 Also included: 
  - Improved internal dashboard
 
-# v2.5 Share and Discover
+# v2.4 Share and Discover
 
 *Value: Thimble becomes a platform for sharing and discovering high-quality teaching and learning content. This will coincide with Curriculum Working Group efforts to standardize best practices for curriculum, the creation of new curriculum templates, and migrating many curricular materials to Thimble.*
 
@@ -50,7 +50,7 @@ Also included:
  - Expose people’s project analytics to them 
  - Browsable Remix history from within a Published project 
 
-# v2.6 Learning
+# v2.5 Learning
 
 *Value: more deeply understand how Thimble does and can help learners master coding concepts*
  - Identify and capture learning analytics to share with others for deep analysis
