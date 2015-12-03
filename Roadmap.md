@@ -68,6 +68,7 @@ Also included:
   - make use of Flickr API, etc to search CC images, something that uses https://unsplash.com/ and https://unsplash.it/
  - Improved error experience (innovate on the idea of error messages as learning tools)
  - CSS templates (bootstrap-style)
+ - Spam solutions
 
 # RELATED WORK IN OTHER PROJECTS
  - Shared login functionality for groups/classrooms (id.webmaker.org)
