@@ -50,6 +50,15 @@ current rule are highlighted:
 
 ![Live DOM Highlighting](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/dom-highlight.gif)
 
+## Inspector
+
+The Inspector allows you to hover your mouse over elements in the preview, and see the associated code
+that was used to make them in the editor.  It is useful for trying to understand how a page works, or
+where exactly to make changes.  When the Inspector is enabled, move your mouse within the preview to highlight
+elements and code, or click on a specific part of the page to turn off the Inspector and focus just on that code.
+
+![Inspector](https://raw.githubusercontent.com/wiki/mozilla/thimble.webmaker.org/inspector.gif)
+
 ## Disable Auto-Executing of JavaScript
 
 Use the toggle in the settings menu to prevent JavaScript from running in your project.
