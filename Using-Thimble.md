@@ -4,7 +4,7 @@
 
 Thimble is a code editor for HTML, JavaScript, and CSS, and is designed to help people 
 teach, learn, and create the web *with* the web.  Because it uses a forked version
-of Brackets, much of what you can do is the same as for [using the desktop Brackets editor](https://github.com/adobe/brackets/wiki/How-to-Use-Brackets).  However, some features are unique to the browser. The following animations demonstrate some of these less-obvious features.
+of Brackets, much of what you can do is the same as for [using the desktop Brackets editor](https://github.com/adobe/brackets/wiki/How-to-Use-Brackets).  Below are descriptions of some of the less-obvious features.
 
 *NOTE: if you find the following animations too small to read, you can open all of the images below in full-size by right-clicking and viewing them on their own.*
 
