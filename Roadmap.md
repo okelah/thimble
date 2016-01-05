@@ -8,6 +8,7 @@
 
 *Value: Thimble becomes a platform for sharing and discovering high-quality teaching and learning content. This will coincide with Curriculum Working Group efforts to standardize best practices for curriculum, the creation of new curriculum templates, and migrating many curricular materials to Thimble.*
 
+ - Improved "My Projects" page
  - Curated projects are accessible in a Public Gallery
  - Tagging of projects for search/discovery
  - Expose people’s project analytics to them 
