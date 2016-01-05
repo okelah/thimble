@@ -1,37 +1,3 @@
-# v 2.0 MVP (released: August 31 2015)
- - new look and feel; streamlined menus
- - theme options
- - multi-file architecture
- - drag and drop files and .zip files
- - Image previews when you hover over links
- - Improved editors for working with colours, snippets of CSS and JS
- - Auto-closing tags and autocomplete for everything as you type, makes it easier to work without making mistakes or having everything memorized
- - Mobile Browser preview mode, so you can see what your project would look like on a phone
- - Live Development highlights which part of the web page in the preview you're currently editing in the editor, and  updates in the editor are applied in real-time to the preview (faster, smoother updates for preview content)
- - auto-save
- - selfie
- - web docs for HTML, CSS, and other extensions
- - improved landing page
- - export project
-
-# v2.1 Going Pro (all released as of November 15)
-
-*Focus is on improving the coding experience, for beginners and more experienced coders alike*
- - Colour Palette extraction for images
- - Disable line wrapper
- - Disable JavaScript auto-execute
- - Moving files between folders
- - Code Folding
- - New remixable starter projects
- - Expanded browser support (Thimble now works in all modern browsers, including Internet Explorer, Chromebooks, and Safari.)
- - Markdown to HTML and LESS to CSS conversion
-
-# v2.2 Inspector (released as of Dec 15)
-
-*Value: Deliver high-value user-requested feature*
- - Preview Inspector
- - Improved “My Projects” experience.
-
 # v2.3 Full Parity
 
 *Value: Remove blockers to shutting down old Thimble*
@@ -77,7 +43,42 @@
  - Users can access/add/curate their Thimble projects on their teach.mozilla.org profile (teach.moz.org and profile service)
 
 
+--
+# Previously Released
 
+## v 2.0 MVP (released: August 31 2015)
+ - new look and feel; streamlined menus
+ - theme options
+ - multi-file architecture
+ - drag and drop files and .zip files
+ - Image previews when you hover over links
+ - Improved editors for working with colours, snippets of CSS and JS
+ - Auto-closing tags and autocomplete for everything as you type, makes it easier to work without making mistakes or having everything memorized
+ - Mobile Browser preview mode, so you can see what your project would look like on a phone
+ - Live Development highlights which part of the web page in the preview you're currently editing in the editor, and  updates in the editor are applied in real-time to the preview (faster, smoother updates for preview content)
+ - auto-save
+ - selfie
+ - web docs for HTML, CSS, and other extensions
+ - improved landing page
+ - export project
+
+## v2.1 Going Pro (all released as of November 15)
+
+*Focus is on improving the coding experience, for beginners and more experienced coders alike*
+ - Colour Palette extraction for images
+ - Disable line wrapper
+ - Disable JavaScript auto-execute
+ - Moving files between folders
+ - Code Folding
+ - New remixable starter projects
+ - Expanded browser support (Thimble now works in all modern browsers, including Internet Explorer, Chromebooks, and Safari.)
+ - Markdown to HTML and LESS to CSS conversion
+
+## v2.2 Inspector (released as of Dec 15)
+
+*Value: Deliver high-value user-requested feature*
+ - Preview Inspector
+ - Improved “My Projects” experience.
 
 
 
