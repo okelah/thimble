@@ -26,14 +26,11 @@
  - Expanded browser support (Thimble now works in all modern browsers, including Internet Explorer, Chromebooks, and Safari.)
  - Markdown to HTML and LESS to CSS conversion
 
-# v2.2 Inspector
+# v2.2 Inspector (released as of Dec 15)
 
 *Value: Deliver high-value user-requested feature*
  - Preview Inspector
  - Improved “My Projects” experience.
-
-Also included: 
- - Improved internal dashboard
 
 # v2.3 Full Parity
 
@@ -49,6 +46,7 @@ Also included:
  - Tagging of projects for search/discovery
  - Expose people’s project analytics to them 
  - Browsable Remix history from within a Published project 
+ - Improved internal dashboard
 
 # v2.5 Learning
 
