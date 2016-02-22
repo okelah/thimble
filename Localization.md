@@ -3,7 +3,7 @@ This document however is meant for developers who would like to contribute to Th
 
 **_Note_**: _For documentation on the localization process for Brackets, refer to the [Brackets l10n page in the wiki](#)
 
-## Strings
+# Strings
 Any string that can be translated into other languages should be contained in the `messages.properties` file for the `en-US` locale which can be found here - [`locales/en-US/messages.properties`](https://github.com/mozilla/thimble.mozilla.org/blob/master/locales/en-US/messages.properties). The format for adding a string to this file is: 
 ```java
 descriptiveStringKey=string
@@ -14,7 +14,7 @@ Comments can be added using a `#` sign at the beginning of the comment on a new 
 
 While the strings in the `messages.properties` files are the source of truth, the actual string files that are used are JSON versions of these files. These files **must** be generated for any of the following steps to work. The JSON strings can be generated using the command `npm run localize`. This will create the JSON strings for each locale in the `dist/` folder.
 
-## Server-side localization
+# Server-side localization
 We use [node-webmaker-i18n](https://github.com/mozilla/node-webmaker-i18n) as our localization library and [Nunjucks](http://mozilla.github.io/nunjucks) to render localized strings. 
 
 ### Static strings in a view
@@ -40,7 +40,7 @@ should turn into
 <a href="/{{ locale }}/projects/new">New Project</a>
 ``` 
 
-## Client-side localization
+# Client-side localization
 Client scripts only use Nunjucks to render a localized string.
 
 ### How it works
@@ -58,5 +58,5 @@ To use a localized string that will appear to the user,
 * Add your string to the `messages.properties` file.
 * Replace the string in your script with `{{ key }}`, where `key` represents the corresponding key for the string.
 
-## Pontoon
+# Pontoon
 Every time a new string is added to the `locales/en-US/messages.properties` file and is committed, it will show up as an "unlocalized string" on Pontoon for each locale. There, contributors will localize the string and once accepted, it will show up on the staging server at https://bramble.mofostaging.net
