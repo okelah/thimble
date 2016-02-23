@@ -1,7 +1,7 @@
 Thimble uses [Pontoon](https://pontoon.moilla.org) to enable contributors to localize strings. 
 This document however is meant for developers who would like to contribute to Thimble and would like an overview of the l10n process.
 
-**_Note_**: _For documentation on the localization process for Brackets, refer to the [Brackets l10n page in the wiki](https://github.com/mozilla/brackets/wiki/Localizing-Bramble)
+**_Note_**: For documentation on the localization process for Brackets, refer to the [Brackets l10n page in the wiki](https://github.com/mozilla/brackets/wiki/Localizing-Bramble)
 
 # Strings
 Any string that can be translated into other languages should be contained in the `messages.properties` file for the `en-US` locale which can be found here - [`locales/en-US/messages.properties`](https://github.com/mozilla/thimble.mozilla.org/blob/master/locales/en-US/messages.properties). The format for adding a string to this file is: 
