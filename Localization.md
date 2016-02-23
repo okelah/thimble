@@ -26,8 +26,8 @@ We use [node-webmaker-i18n](https://github.com/mozilla/node-webmaker-i18n) as ou
 ### Static strings in a view
 These mainly include strings that are static on a page (for e.g. "Sign in") and do not require client-side processing. Most of these strings are located in one of the [views](https://github.com/mozilla/thimble.mozilla.org/tree/master/views). If you need to include a new string, follow these steps:
 * Add your string to the `messages.properties` file.
-* Select the appropriate `views/` html file containing your string and replace the string with its key (as specified in the `messages.properties` file) in the following format: `{{ key }}`.
-* **Note:** _If the string contains HTML markup, add the_ `safe` _keyword like so:_ `{{ key | safe }}`.
+* Select the appropriate `views/` html file containing your string and replace the string with its key (as specified in the `messages.properties` file) in the following format: `{{ gettext("key") }}`.
+* **Note:** _If the string contains HTML markup, add the_ `safe` _keyword like so:_ `{{ gettext("key") | safe }}`.
 
 ### Dynamic strings in server logic
 Sometimes, strings are not rendered in a view. For example, the default project name i.e. "Untitled Project" is not rendered in a view but is used in the server logic when creating a new project. To acquire the translated string for such situations, follow these steps:
