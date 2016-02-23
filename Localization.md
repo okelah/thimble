@@ -20,7 +20,6 @@ We use [node-webmaker-i18n](https://github.com/mozilla/node-webmaker-i18n) as ou
 ### Static strings in a view
 These mainly include strings that are static on a page (for e.g. "Sign in") and do not require client-side processing. Most of these strings are located in one of the [views](https://github.com/mozilla/thimble.mozilla.org/tree/master/views). If you need to include a new string, follow these steps:
 * Add your string to the `messages.properties` file.
-* 
 * Select the appropriate `views/` html file containing your string and replace the string with its key (as specified in the `messages.properties` file) in the following format: `{{ key }}`.
 * **Note:** _If the string contains html content in it, add the_ `safe` _keyword like so:_ `{{ key | safe }}`.
 
