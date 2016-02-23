@@ -1,7 +1,7 @@
 Thimble uses [Pontoon](https://pontoon.moilla.org) to enable contributors to localize strings. 
 This document however is meant for developers who would like to contribute to Thimble and would like an overview of the l10n process.
 
-**_Note_**: For documentation on the localization process for Brackets, refer to the [Brackets l10n page in the wiki](https://github.com/mozilla/brackets/wiki/Localizing-Bramble)
+**_Note_**: Because Thimble includes a forked version of [Brackets](https://github.com/mozilla/brackets), you should also refer to the [Brackets l10n page in the wiki](https://github.com/mozilla/brackets/wiki/Localizing-Bramble).
 
 # Strings
 Any string that can be translated into other languages should be contained in the `messages.properties` file for the `en-US` locale which can be found here - [`locales/en-US/messages.properties`](https://github.com/mozilla/thimble.mozilla.org/blob/master/locales/en-US/messages.properties). The format for adding a string to this file is: 
@@ -12,7 +12,13 @@ where `descriptiveStringKey` represents a camel-cased name that will be used to 
 
 Comments can be added using a `#` sign at the beginning of the comment on a new line. This string document is structured in such a way that it delimits different components of the Thimble app (for e.g. Editor, Homepage, etc.) using comment blocks. Any new string should be placed in the appropriate section accordingly.
 
-While the strings in the `messages.properties` files are the source of truth, the actual string files that are used are JSON versions of these files. These files **must** be generated for any of the following steps to work. The JSON strings can be generated using the command `npm run localize`. This will create the JSON strings for each locale in the `dist/` folder.
+While the strings in the `messages.properties` files are the "source of truth," the actual string files used at run time are JSON generated versions of these files. These JSON files **must** be generated for any of the following steps to work.
+
+The necessary JSON strings can be generated using the following command:
+
+     npm run localize
+
+This will result in the JSON strings for each locale being written to the `dist/` folder.
 
 # Server-side localization
 We use [node-webmaker-i18n](https://github.com/mozilla/node-webmaker-i18n) as our localization library and [Nunjucks](http://mozilla.github.io/nunjucks) to render localized strings. 
@@ -21,12 +27,12 @@ We use [node-webmaker-i18n](https://github.com/mozilla/node-webmaker-i18n) as ou
 These mainly include strings that are static on a page (for e.g. "Sign in") and do not require client-side processing. Most of these strings are located in one of the [views](https://github.com/mozilla/thimble.mozilla.org/tree/master/views). If you need to include a new string, follow these steps:
 * Add your string to the `messages.properties` file.
 * Select the appropriate `views/` html file containing your string and replace the string with its key (as specified in the `messages.properties` file) in the following format: `{{ key }}`.
-* **Note:** _If the string contains html content in it, add the_ `safe` _keyword like so:_ `{{ key | safe }}`.
+* **Note:** _If the string contains HTML markup, add the_ `safe` _keyword like so:_ `{{ key | safe }}`.
 
 ### Dynamic strings in server logic
 Sometimes, strings are not rendered in a view. For example, the default project name i.e. "Untitled Project" is not rendered in a view but is used in the server logic when creating a new project. To acquire the translated string for such situations, follow these steps:
 * Add your string to the `messages.properties` file.
-* In a specific server route logic, the `req` and `res` objects can be used to get the translated strings. For e.g. `req.gettext(key, "fr")`.
+* In the specific server route logic, the `req` and `res` objects can be used to get the translated strings. For e.g. `req.gettext("key", "fr")`, where `"key"` is the key name, and `"fr"` the locale to use.
 * Refer to https://github.com/mozilla/node-webmaker-i18n#gettext for more information.
 
 ### Links in views
@@ -34,7 +40,7 @@ If you would like to add a link to a route that is managed by Thimble, make sure
 ```html
 <a href="/projects/new">New Project</a>
 ```
-should turn into
+should include the locale, like so
 ```html
 <a href="/{{ locale }}/projects/new">New Project</a>
 ``` 
