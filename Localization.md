@@ -3,6 +3,10 @@ This document however is meant for developers who would like to contribute to Th
 
 **_Note_**: Because Thimble includes a forked version of [Brackets](https://github.com/mozilla/brackets), you should also refer to the [Brackets l10n page in the wiki](https://github.com/mozilla/brackets/wiki/Localizing-Bramble).
 
+Here is an overall architecture schematic of the Localization workflow for both Brackets and Thimble. _The green lines indicate the path followed for modifying strings on Thimble while the blue lines indicate the path followed for modifying strings on Brackets_:
+
+![thimble l10n](https://cloud.githubusercontent.com/assets/5816130/13713597/ca32b87a-e797-11e5-88fc-2f519e61b935.png)
+
 # Strings
 Any string that can be translated into other languages should be contained in the `messages.properties` file for the `en-US` locale which can be found here - [`locales/en-US/messages.properties`](https://github.com/mozilla/thimble.mozilla.org/blob/master/locales/en-US/messages.properties). The format for adding a string to this file is: 
 ```java
