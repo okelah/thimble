@@ -1,26 +1,14 @@
-# v2.3 Full Parity
+# The Thimble development roadmap is currently paused
 
-*Value: Remove blockers to shutting down old Thimble*
- - Localization
- - Migrate old projects (https://github.com/mozilla/thimble.webmaker.org/issues/509)
+We are assessing possible paths forward for Thimble development. We are considering community requests, possible partnerships, as well as how the tool fits into the Mozilla Leadership Network strategic plan. 
 
-# v2.4 Share and Discover
-
-*Value: Thimble becomes a platform for sharing and discovering high-quality teaching and learning content. This will coincide with Curriculum Working Group efforts to standardize best practices for curriculum, the creation of new curriculum templates, and migrating many curricular materials to Thimble.*
-
+# The features and improvements we're considering are:
  - Improved "My Projects" page
  - Curated projects are accessible in a Public Gallery
  - Tagging of projects for search/discovery
  - Expose people’s project analytics to them 
  - Browsable Remix history from within a Published project 
  - Improved internal dashboard
-
-# v2.5 Learning
-
-*Value: more deeply understand how Thimble does and can help learners master coding concepts*
- - Identify and capture learning analytics to share with others for deep analysis
-
-# TO BE CONSIDERED
  - Offline access 
  - Improved tutorial functionality (based on user feedback after MVP)
  - Beginner and Advanced Modes
@@ -35,7 +23,7 @@
  - CSS templates (bootstrap-style)
  - Spam solutions
 
-# RELATED WORK IN OTHER PROJECTS
+# Related work in other projects
  - Shared login functionality for groups/classrooms (id.webmaker.org)
  - User-curated collaboration spaces - e.g. "Classrooms" (teach.mozilla.org)
  - Sample assessment rubrics - tools or best practices for instructors to evaluate learning outcomes (curriculum)
@@ -80,6 +68,10 @@
 *Value: Deliver high-value user-requested feature*
  - Preview Inspector
  - Improved “My Projects” experience.
+
+## Localization (released March 16)
+
+*Value: Allows Thimble to be useful in different locales
 
 
 
