@@ -1,4 +1,4 @@
-Thimble uses [Pontoon](https://pontoon.moilla.org) to enable contributors to localize strings. 
+Thimble uses [Pontoon](https://pontoon.mozilla.org) to enable contributors to localize strings. 
 This document however is meant for developers who would like to contribute to Thimble and would like an overview of the l10n process.
 
 **_Note_**: Because Thimble includes a forked version of [Brackets](https://github.com/mozilla/brackets), you should also refer to the [Brackets l10n page in the wiki](https://github.com/mozilla/brackets/wiki/Localizing-Bramble).
